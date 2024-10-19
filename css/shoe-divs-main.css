@@ -1,0 +1,74 @@
+.shoe-pictures {
+    width: 200px;
+    margin: 6px 6px 6px 6px;
+}
+
+.shoe-pictures:hover {
+    width: 210px;
+}
+
+.alloftheshoepics {
+    display: flex;
+    margin-top: 20px;
+}
+
+.imageee {
+    border: solid;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+:hover.arrow {
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+}
+
+.arrow-div {
+    display: flex;
+    align-items: center;
+}
+
+.shoe-grid {
+    display: grid;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.shoepicdiv {
+    display: flex;
+    margin-left: 20px;
+    
+}
+
+
+.arrowbutton {
+    background: none;
+    border: none;
+}
+
+:hover .arrowbutton{
+    cursor: pointer;
+}
+
+.floatright1 {
+    float: right;
+    width: 100px;
+    border-width: 0.50px;
+    border-left-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: white;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-bottom: 150px;
+    margin-top: -10px;
+}

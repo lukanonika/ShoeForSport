@@ -1,0 +1,92 @@
+.nikeclothesdiv {
+    background-color: white;
+    margin-top: 150px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.nikeguy {
+    width: 360px;
+    margin-top: 10.5px;
+    
+}
+
+
+
+.nikeguydiv {
+    margin-left: 100px;
+}
+
+.nikeflex {
+    display: flex;
+    
+}
+
+.niketext {
+    margin-left: 150px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    font-family: fantasy;
+    font-style: italic;
+    
+}
+
+.nikemotto {
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
+    -webkit-text-stroke-style: solid;
+    margin-left: 200px;
+    font-family: fantasy;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.clothesnike {
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.clothesnike {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.clothespic {
+    width: 200px;
+}
+
+.arrow1 {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    rotate: 180deg;
+    margin-top: 70px;
+    
+}
+
+.arrow2 {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
+:hover.arrow1 {
+    cursor: pointer;
+} 
+
+:hover.arrow2 {
+    cursor: pointer;
+} 
+
+:hover.clothespic {
+    cursor: pointer;
+    width: 220px;
+}

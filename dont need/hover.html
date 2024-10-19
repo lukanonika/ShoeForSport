@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hover-container">
+        <button class="trigger-button">Hover over me</button>
+        <div class="hover-window">
+          <button class="hover-button">Click me</button>
+        </div>
+      </div>
+</body>
+
+<Style>
+.hover-container {
+  position: relative;
+  width: 200px;
+  height: 100px;
+}
+
+.trigger-button {
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hover-window {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: lightgrey;
+  border: 1px solid black;
+  display: none;
+}
+
+.hover-button {
+  width: 50px;
+  height: 50px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+</Style>
+
+<script>
+const hoverContainer = document.querySelector('.hover-container');
+const hoverWindow = hoverContainer.querySelector('.hover-window');
+const triggerButton = hoverContainer.querySelector('.trigger-button');
+const hoverButton = hoverContainer.querySelector('.hover-button');
+
+triggerButton.addEventListener('mouseover', () => {
+  hoverWindow.style.display = 'block';
+});
+
+triggerButton.addEventListener('mouseout', () => {
+  hoverWindow.style.display = 'none';
+});
+
+hoverButton.addEventListener('mouseover', () => {
+  hoverWindow.style.display = 'block';
+});
+
+hoverButton.addEventListener('mouseout', () => {
+  hoverWindow.style.display = 'none';
+});
+</script>
+
+</html>
